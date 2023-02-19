@@ -80,7 +80,7 @@ int main( int argc, char *argv[] ) {
         SDL_SetRenderDrawColor(g_screen, RENDER_DRAW_COLOR, RENDER_DRAW_COLOR, RENDER_DRAW_COLOR, RENDER_DRAW_COLOR);
         SDL_RenderClear(g_screen);
 
-        g_background.Render(g_screen, NULL);
+        // g_background.Render(g_screen, NULL);
         game_map.DrawMap(g_screen);
 
 
